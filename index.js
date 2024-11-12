@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/api/products", productRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello fron Node API Server Updated!");
+  res.send("Hello fron Nanami Node API Server Updated!");
 });
 
 app.listen(PORT, () =>
